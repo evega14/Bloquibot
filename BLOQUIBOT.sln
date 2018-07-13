@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLOQUIBOT", "BLOQUIBOT\BLOQUIBOT.csproj", "{4C8AF9A9-448F-4A5D-B706-B70D29E28E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseDatos", "BaseDatos", "{C61D0ED0-F1B4-4E30-A110-3950E537E9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{97338741-0F33-4BE5-9E70-FB861DD4396A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorios", "Repositorios\Repositorios.csproj", "{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8AF9A9-448F-4A5D-B706-B70D29E28E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8AF9A9-448F-4A5D-B706-B70D29E28E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8AF9A9-448F-4A5D-B706-B70D29E28E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8AF9A9-448F-4A5D-B706-B70D29E28E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97338741-0F33-4BE5-9E70-FB861DD4396A} = {C61D0ED0-F1B4-4E30-A110-3950E537E9B5}
+		{8D3AB1A4-E815-4DE1-8EF8-6A2C216EFB86} = {97338741-0F33-4BE5-9E70-FB861DD4396A}
+	EndGlobalSection
+EndGlobal
